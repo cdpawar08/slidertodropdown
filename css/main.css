@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+/* Reset END */
+html { font-size: 62.5%; } 
+body { font-family: 'Lato', sans-serif; margin: 0; padding: 0; font-size: 1.6rem; color: #444444; }
+.section-padding { padding: 80px 0px; }
+strong { font-weight: 700; }
+.mt-30 { margin-top: 30px; }
+.title-container.align-right { text-align: right; }
+.title-container .title-tagline { display: inline-block; vertical-align: middle; margin-right: 30px; line-height: 1.625; }
+.section-title { font-family: 'oswaldsemibold'; text-transform: uppercase; height: 80px; padding-left: 20px; border-left: 6px solid #e00523; margin-bottom: 0; display: inline-block; text-align: left; vertical-align: middle; }
+.section-title small { font-size: 3rem; color: #222222; display: block; }
+.section-title strong { font-size: 5rem; color: #bdbec2; padding-top: 8px; display: inline-block; }
+.section-title strong.special { color: #f53751; }
+.btn:hover, .btn:focus, .btn:active { outline: 0; }
+.btn { height: 40px; border: none; border-radius: 20px; font-size: 1.6rem; text-transform: uppercase; font-family: 'oswaldsemibold'; outline: 0; padding: 10px 32px; }
+.btn.btn-bordered { color: #e00523; background: #f8f1f2; border: 1px solid #e00523; }
+/*btn-theme btn-rounded btn-bordered*/
+
+
+/*Header Start*/
+header { background: #222222;height: 50px; }
+header h4.title{color: #ffffff; line-height: 50px;font-size: 20px;}
+
+section.content{
+	padding: 50px 0px;
+}
+.slider-dropdown-container{
+	position: relative;
+	background-color: #1E5598;
+	overflow-x: hidden;	
+}
+.slider-dropdown-container.nav-enable{
+	padding: 0 40px;
+}
+.slider-dropdown-container.nav-enable span.nav{
+	position: absolute;
+	top: 0;
+	font-size: 36px;
+    height: 100%;
+    width: 40px;
+    text-align: center;
+    background: #555;
+    color: #fff;
+}
+.slider-dropdown-container.nav-enable span.nav i{
+	line-height: 50px;
+}
+.slider-dropdown-container.nav-enable span.nav-prev {
+	left: 0;
+}
+.slider-dropdown-container.nav-enable span.nav-next {
+	right: 0;
+}
+.slider-dropdown-container,.slider-dropdown-container ul{
+	margin: 0;
+	padding: 0;			
+	font-size: 0;
+}
+
+.slider-dropdown-container ul{
+	white-space:nowrap;
+	margin-left: 0;
+	-webkit-transition: all 1s; /* Safari */
+    transition: all 1s;
+}
+.slider-dropdown-container ul>li{
+	display: inline-block;		
+}
+.slider-dropdown-container ul>li.active{
+	background: #222;
+}
+.slider-dropdown-container ul>li>a.item-name{
+	color: #ffffff;
+	font-size: 16px;
+	padding: 0 20px;
+	line-height: 50px;
+	display: block;	
+}
+.slider-dropdown-container.dropdown-enable .item-content{
+	height: 300px;	
+	width: 100%;
+	position: absolute;
+	top: 40px;
+	overflow: auto;
+}
+.slider-dropdown-container.dropdown-enable ul.items{	
+	display: none;
+}
+.slider-dropdown-container.dropdown-enable{
+	overflow:visible;
+}
+.slider-dropdown-container.dropdown-enable.open ul.items{
+	display: block;
+}
+.slider-dropdown-container.dropdown-enable ul>li{
+	display: block;
+}
+.slider-dropdown-container.dropdown-enable span.select-dropdown{
+	width: 100%;
+    height: 40px;
+    background: #fff;
+    border: 1px solid #222;
+    color: #222;
+    font-size: 16px;
+    line-height: 40px;
+    padding: 0 15px;
+    display: block;
+}
+.slider-dropdown-container.dropdown-enable span.select-dropdown i.fa{
+	float: right;
+    line-height: 40px;
+}

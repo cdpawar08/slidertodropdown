@@ -1,0 +1,76 @@
+/* Responsive CSS */
+@media only screen and (min-width:1600px) {
+    section.testimonial:before { width: 155px; height: 155px; }
+    section.testimonial:after { width: 200px; height: 200px; }
+}
+@media only screen and (max-width:1024px) {
+    .navbar-kcfintube .navbar-nav>li { position: relative; padding: 0px 10px; }
+    .navbar-kcfintube .navbar-nav>li>a { font-size: 1.4rem; line-height: 62px; }
+    .banner .banner-content .title { font-size: 6rem; }
+    .banner .banner-content .text-red { font-size: 3rem; }
+    .banner .banner-content .subtitle { font-size: 2rem; }
+    .banner .banner-content .since { height: 90px; width: 90px; }
+    .banner .banner-content .since { padding: 20px 0; }
+    .banner .banner-content .since .title { font-size: 2rem; }
+    .banner .banner-content .since .year { font-size: 3rem; }
+    .banner .banner-slider:before { width: 500px; }
+    .banner-slider .slick-dots { bottom: 0; }
+    section.testimonial:after, section.testimonial:before { width: 60px; height: 60px; }
+    .navbar-kcfintube .navbar-nav>li { position: relative; padding: 0px 10px; }
+    .navbar-kcfintube .navbar-brand img { max-height: 34px; }
+    .feature-ul>li { padding-right: 30px; margin-right: 30px; }
+    footer .footer-quicklinks .ul-quicklinks li>a { font-size: 1.4rem; }
+    footer .footer-quicklinks .ul-quicklinks li { padding: 0px 6px; }
+    .product-list .product-item .product-name { min-height: 72px; font-size: 1.6rem; }
+    section.welcome:after { width: 150px; height: 150px; background-repeat: no-repeat; }
+    section.welcome:before { width: 100px; height: 136px; }
+}
+@media only screen and (max-width:992px) {
+    .section-title { height: 52px; }
+    .section-title small { font-size: 2rem; }
+    .section-title strong { font-size: 3rem; }
+    section.contact .contact-container { margin-bottom: 40px; }
+    .navbar-kcfintube .navbar-nav>li { position: relative; padding: 0px 5px; }
+    .feature-ul>li { padding-right: 10px; margin-right: 10px; }
+    .feature-ul>li .iconmoon { margin-right: 10px; }
+    .feature-ul>li .feature-title { font-size: 1.4rem; }
+    footer .ul-social, footer .ul-quicklinks { float: none; margin: 10px auto; display: table; }
+    section.testimonial .slick-nav.slick-next { right: 46%; }
+    section.testimonial .slick-nav.slick-prev { left: 46%; }
+}
+@media only screen and (max-width:767px) {
+    .section-padding { padding: 40px 0px; }
+    .title-container.align-right { text-align: left; }
+    .title-container .title-tagline { margin-right: 0; line-height: 1.4; margin-bottom: 20px; }
+    .title-container .title-tagline br { display: none; }
+    section.testimonial:after, section.testimonial:before { width: 40px; height: 40px; }
+    .testimonial-container .comp-logo, .testimonial-container .comp-desc { display: block; position: relative; }
+    .testimonial-container .comp-logo { margin: 0 auto; }
+    .testimonial-container .comp-desc { padding: 0; padding-top: 10px; }
+    .testimonial-container .comp-logo>img { position: absolute; max-width: 142px; top: 50%; transform: translateY(-50%); }
+    .banner .banner-content .title { font-size: 5rem; }
+    .banner-slider .slick-dots { bottom: -6px; }
+    header .info-header .ul-info-header { float: right; width: 100%; }
+    header .info-header .comman-search { width: 100%; border: 1px solid #3a5686; }
+    .navbar-kcfintube .navbar-toggle { background-color: #022664; border: 1px solid #022664; margin: 14px 0; }
+    .navbar-kcfintube .navbar-toggle .icon-bar { background-color: #ffffff; }
+    .navbar-kcfintube .navbar-nav { float: left; width: 100%; margin: 0; padding: 10px 0; }
+    .navbar-kcfintube .navbar-nav>li { padding: 15px 0px; }
+    .navbar-kcfintube .navbar-nav>li>a { position: static; line-height: 20px; }
+    .navbar-kcfintube .navbar-nav>li>a:after { height: 2px; }
+    footer .ul-social { float: left; margin: 10px 0; }
+    footer .ul-social li { padding: 0; padding-right: 20px; }
+    footer .footer-quicklinks .ul-quicklinks li { padding: 0; padding: 0px 5px; line-height: 20px; margin: 3px 0; }
+    footer .footer-quicklinks .ul-quicklinks li:first-child, footer .ul-social li:first-child { padding-left: 5px; }
+    .slick-nav.slick-next { right: 40%; }
+    .slick-nav.slick-prev { left: 40%; }
+    .product-list .product-item .product-name { min-height: auto; }
+    .feature-ul>li { width: 100%; padding-right: 0px; margin-right: 0px; border-right: none; text-align: center; }
+    footer .footer-quicklinks { padding: 10px 0; }
+    section.contact .contact-list { margin-bottom: 0px; }
+}
+@media only screen and (max-width:420px) {
+    .banner .banner-content .title { font-size: 4rem; }
+    .banner .banner-content .subtitle { font-size: 1.8rem; }
+    .banner .banner-content .text-red { font-size: 2.5rem; }
+}
