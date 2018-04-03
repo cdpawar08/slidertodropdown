@@ -45,10 +45,10 @@ if ($sliderTodrop.length) {
 
 ## Jquery Options
 
-    **backgroundColor: "#1E5598"**
+    backgroundColor: "#1E5598"
 
-    **enableDropdown: false/true **
+    enableDropdown: false/true 
             
-    **enableViewport: 540**
+    enableViewport: 540
             
-    **dropdownTitle: "Select"**
+    dropdownTitle: "Select"
