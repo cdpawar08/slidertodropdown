@@ -1,3 +1,8 @@
+/*
+Version: 1.0
+Author: Chintan Pawar
+*/
+
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -37,90 +42,4 @@ header h4.title{color: #ffffff; line-height: 50px;font-size: 20px;}
 
 section.content{
 	padding: 50px 0px;
-}
-.slider-dropdown-container{
-	position: relative;
-	background-color: #1E5598;
-	overflow-x: hidden;	
-}
-.slider-dropdown-container.nav-enable{
-	padding: 0 40px;
-}
-.slider-dropdown-container.nav-enable span.nav{
-	position: absolute;
-	top: 0;
-	font-size: 36px;
-    height: 100%;
-    width: 40px;
-    text-align: center;
-    background: #555;
-    color: #fff;
-}
-.slider-dropdown-container.nav-enable span.nav i{
-	line-height: 50px;
-}
-.slider-dropdown-container.nav-enable span.nav-prev {
-	left: 0;
-}
-.slider-dropdown-container.nav-enable span.nav-next {
-	right: 0;
-}
-.slider-dropdown-container,.slider-dropdown-container ul{
-	margin: 0;
-	padding: 0;			
-	font-size: 0;
-}
-
-.slider-dropdown-container ul{
-	white-space:nowrap;
-	margin-left: 0;
-	-webkit-transition: all 1s; /* Safari */
-    transition: all 1s;
-}
-.slider-dropdown-container ul>li{
-	display: inline-block;		
-}
-.slider-dropdown-container ul>li.active{
-	background: #222;
-}
-.slider-dropdown-container ul>li>a.item-name{
-	color: #ffffff;
-	font-size: 16px;
-	padding: 0 20px;
-	line-height: 50px;
-	display: block;	
-}
-.slider-dropdown-container.dropdown-enable .item-content{
-	height: 300px;	
-	width: 100%;
-	position: absolute;
-	top: 40px;
-	overflow: auto;
-}
-.slider-dropdown-container.dropdown-enable ul.items{	
-	display: none;
-}
-.slider-dropdown-container.dropdown-enable{
-	overflow:visible;
-}
-.slider-dropdown-container.dropdown-enable.open ul.items{
-	display: block;
-}
-.slider-dropdown-container.dropdown-enable ul>li{
-	display: block;
-}
-.slider-dropdown-container.dropdown-enable span.select-dropdown{
-	width: 100%;
-    height: 40px;
-    background: #fff;
-    border: 1px solid #222;
-    color: #222;
-    font-size: 16px;
-    line-height: 40px;
-    padding: 0 15px;
-    display: block;
-}
-.slider-dropdown-container.dropdown-enable span.select-dropdown i.fa{
-	float: right;
-    line-height: 40px;
 }

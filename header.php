@@ -11,6 +11,7 @@
     <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>
     <link type="text/css" rel="stylesheet" href="css/font-awesome.min.css"/>        
     <link type="text/css" rel="stylesheet" href="css/main.css"/>
+    <link type="text/css" rel="stylesheet" href="css/slidertodropdown.css"/>
     <link type="text/css" rel="stylesheet" href="css/responsive.css"/>
     <!-- CSS End -->
 </head>
